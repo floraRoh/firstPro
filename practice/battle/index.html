@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/battle.css">
+    <link rel="stylesheet" href="css/battle_header_footer.css">
+    <link rel="shortcut icon" href="img/untitled_1_n5o_icon.ico">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/battle.js"></script>
+    <script src="js/battle_menu_slide.js"></script>
+    <title>배틀그라운드 | Daum 게임</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="modal">
+            <button id="btn_c_modal">X</button>
+        </div>
+        <div class="top">
+            <div class="daum_logo fl">
+                <a href="battle.html">
+                    <img src="img/20170315064553027.png" alt="">
+                </a>
+            </div>
+            <div class="join fr">
+                <p>Daum 홈페이지 이동</p>
+                <p>회원가입</p>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header_size">
+            <div class="logo fl">
+                <img src="img/logo_pubg.png" alt="로고">
+            </div>
+            <ul class="menu fl">
+                <li class="main_menu menu1">
+                    <a href="battle_notice.html">새소식</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_notice.html">공지사항</a></li>
+                        <li><a href="battle_notice.html">업데이트</a></li>
+                        <li><a href="battle_notice.html">GM소식</a></li>
+                        <li><a href="battle_notice.html">대회소식</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu2">
+                    <a href="battle_media.html">가이드</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">게임 가이드</a></li>
+                        <li><a href="battle_media.html">지도 정보/공략</a></li>
+                        <li><a href="battle_media.html">아이템 DB</a></li>
+                        <li><a href="battle_media.html">의상 스킨</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu3">
+                    <a href="battle_notice.html">커뮤니티</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_notice.html">플레이어 게시판</a></li>
+                        <li><a href="battle_notice.html">미디어 게시판</a></li>
+                        <li><a href="battle_notice.html">DUO/SQUAD모집</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu4">
+                    <a href="battle_media.html">SNS</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">디스코드</a></li>
+                        <li><a href="battle_media.html">페이스북</a></li>
+                        <li><a href="battle_media.html">유튜브</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu5">
+                    <a href="battle_notice.html">이벤트</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_notice.html">이벤트</a></li>
+                        <li><a href="battle_notice.html">포인트 교환소</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu6">
+                    <a href="battle_media.html">상점</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">게임구매</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu7">
+                    <a href="battle_notice.html">자료실</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">다운로드</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu8">
+                    <a href="battle_media.html">고객센터</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">고객센터</a></li>
+                        <li><a href="battle_media.html">신고센터</a></li>
+                        <li><a href="battle_media.html">보안센터</a></li>
+                    </ul>
+                </li>
+                <div class="fake_sub"></div>
+            </ul>
+            <div class="header_login fr">
+                <p><a href="#">LOGIN</a></p>
+                <p class="game_start"><a href="#">
+                </a></p>
+            </div>
+        </div>
+        </div>
+        <div class="main_img">
+            <div class="img img1">
+                <div class="img_text">
+                    <img src="img/15474359691224-main_pc_banner_txt.png" alt="">
+                </div>
+            </div>
+            <div class="img img2">
+                <div class="img_text">
+                    <img src="img/155237580796532-01_txt.png" alt="">
+                </div>
+            </div>
+            <div class="img img3">
+                <div class="img_text">
+                    <img src="img/04_txt.png" alt="">
+                </div>
+            </div>
+            <div class="img img4">
+                <div class="img_text">
+                    <img src="img/155376572502280-main_pc_banner_txt1.png" alt="">
+                </div>
+            </div>
+            <div class="img img5">
+                <div class="img_text">
+                    <img src="img/155436662242351-main_pc_banner_txt1.png" alt="">
+                </div>
+            </div>
+            <div class="img img6">
+                <div class="img_text">
+                    <img src="img/155364974429624-main_pc_banner_txt1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main_nav">
+            <div class="main_nav_size">
+                <p id="btn_left">〈</p>
+                <div>
+                    <p class="btn_indi">
+                        <a href="#">계정 보안 캠페인</a>
+                    </p>
+                    <p class="btn_indi">
+                        <a href="#">3월 이벤트 포인트 교환소</a>
+                    </p>
+                    <p class="btn_indi">
+                        <a href="#">공식 페이스북에서 놀자!</a>
+                    </p>
+                    <p class="btn_indi">
+                        <a href="#">생존타이틀 시즌3 이벤트</a>
+                    </p>
+                    <p class="btn_indi">
+                        <a href="#">우리 동네 PC방 이벤트</a>
+                    </p>
+                    <p class="btn_indi">
+                        <a href="#">서바이버 패스 3 : 와일드 카드</a>
+                    </p>
+                </div>
+                <p id="btn_right">〉</p>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="contents_title">
+                <h3>UPDATE
+                    <span>+</span>
+                </h3>
+                <h3>NOTICE
+                    <span>+</span>
+                </h3>
+                <h3>GM소식
+                    <span>+</span>
+                </h3>
+                <h3>대회소식
+                    <span>+</span>
+                </h3>
+            </div>
+            <div class="update">
+                <div class="update_img"></div>
+                <div class="update_t">
+                    <p># M16A4 옵션 변경</p>
+                    <p># VECTOR 9탄사용 / 탄환증가</p>
+                    <p># UMP45 0.45acp탄 사용 / 탄환감소</p>
+                    <p># AR/DMR/LMG/SMG 스폰 상승율 41%</p>
+                </div>
+            </div>
+            <div class="notice">
+                <div class="notice_w">
+                    <p class="notice_title">킬배틀의 정점 '큰손'설문 참여 이벤트 당첨자 안내</p>
+                    <span class="notice_date">2019-04-04</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">FACEIT Global Summit 대회 및 특별 아이템 안내</p>
+                    <span class="notice_date">2019-04-03</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">알려진 이슈 사항 - 2019/04/03</p>
+                    <span class="notice_date">2019-04-03</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">서바이버 패스3: 와일드카드 판매안내</p>
+                    <span class="notice_date">2019-03-28</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">LGU+ 휴대폰 본인확인 서비스 점검 안내</p>
+                    <span class="notice_date">2019-04-08</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">4월 6일 불법프로그램 제재 및 모니터링 안내</p>
+                    <span class="notice_date">2019-04-07</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">[정상화] 서버 불안정 및 접속지연 현상 관련 안내</p>
+                    <span class="notice_date">2019-04-06</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">4월 5일 불법프로그램 제재 및 모니터링 안내</p>
+                    <span class="notice_date">2019-04-06</span>
+                </div>
+                <div class="notice_w">
+                    <p class="notice_title">4월 4일 불법프로그램 제재 및 모니터링 안내</p>
+                    <span class="notice_date">2019-04-05</span>
+                </div>
+            </div>
+            <div class="gm">
+
+            </div>
+            <div class="com">
+                <div class="com_img com_img1"></div>
+                <div class="com_img com_img2"></div>
+                <div class="com_img com_img3"></div>
+                <div class="com_img com_img4"></div>
+                <div class="com_img com_img5"></div>
+            </div>
+        </div>
+        <div class="youtube">
+            <div id="btn_you_left">〈</div>
+            <div class="youtube_size">
+                <h3>추천영상</h3>
+                <!-- youtube 영상 1번째줄 -->
+                <div class="youtu_box you1">
+                    <div class="youtu">
+                        <iframe width="291" height="300" src="https://www.youtube.com/embed/pEzthTf6bSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="youtu">
+                        <iframe width="291" height="300" src="https://www.youtube.com/embed/agXJupmBy1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="youtu">
+                        <iframe width="291" height="300" src="https://www.youtube.com/embed/GJvcCBgBdA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="youtu">
+                        <iframe width="291" height="300" src="https://www.youtube.com/embed/wNqCtT0PKIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="youtu">
+                        <iframe width="291" height="300" src="https://www.youtube.com/embed/blqFrm8BzeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- youtube 영상 2번째줄 -->
+                <div class="youtu_box you2">
+                        <div class="youtu">
+                            <iframe width="291" height="300" src="https://www.youtube.com/embed/4JHOinlmHAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="youtu">
+                            <iframe width="291" height="300" src="https://www.youtube.com/embed/1VfeY8zDecw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="youtu">
+                            <iframe width="291" height="300" src="https://www.youtube.com/embed/qmxopKMC1Lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="youtu">
+                            <iframe width="291" height="300" src="https://www.youtube.com/embed/8T7QVb8cVaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="youtu">
+                            <iframe width="291" height="300" src="https://www.youtube.com/embed/8fMaxWj5Lek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div><!-- youtube_size -->
+                <div id="btn_you_right">〉</div>
+            </div><!-- youtube -->
+            <div class="comunity">
+                <div class="contents_title">
+                    <h3>지도 공략
+                        <span>+</span>
+                    </h3>
+                    <h3>인벤 영상 꿀팁
+                        <span>+</span>
+                    </h3>
+                    <h3>미디어 게시판
+                        <span>+</span>
+                    </h3>
+                    <h3>DOU & SQUAD 모집
+                        <span>+</span>
+                    </h3>
+                </div>
+                <div class="update">
+                   <div class="map map1">
+                       <p>에란겔</p>
+                   </div>
+                   <div class="map map2">
+                        <p>미라마</p>   
+                   </div>
+                   <div class="map map3">
+                       <p>사녹</p>
+                   </div>
+                   <div class="map map4">
+                        <p>비켄디</p>
+                   </div>
+                </div>
+                <div class="notice inven">
+                    <p>하틴 절벽 낙사 안 하고 내려가는 방법!!!</p>
+                    <p>랭커의 샷건 강좌! 샷건으로 슈퍼플레이 하기</p>
+                    <p>캔디드 사이트 성능(조준속도)비교</p>
+                    <p>수류탄 정확하게 던지는 방법</p>
+                    <p>설원맵 전역에 있는 2층집 고인물 루트 아시나요?</p>
+                    <p>사녹 천장 존버 공략</p>
+                    <p>[속보] 낙하산 자르기로 가장 빨리 내리기</p>
+                    <p>비켄디 캐슬 고인물 끝판왕 파쿠르 공략</p>
+                    <p>설원맵 꿀자리 설산 올라가는 방법</p>
+                </div>
+                <div class="gall">
+                    <div class="gall_iframe">
+                        <iframe width="369" height="250" src="https://www.youtube.com/embed/NcndNR8EiPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <ul class="gall_t">
+                        <li><a href="#">배틀그라운드 영화</a></li>
+                        <li><a href="#">낙하산 가장 빠르게 내리는 방법</a></li>
+                        <li><a href="#">배틀그라운드 영화</a></li>
+                    </ul>
+                </div>
+                <div class="coll">
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="blue">SQUAD</span>
+                            <span class="coll_span">https://discord.gg/eqftFv 사녹즐겜 ㄱ</span>
+                        </p>
+                    </div>
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="blue">SQUAD</span>
+                            <span class="coll_span">안녕하세요 저희는 카배 신생서버 BackUp 서버입니다. 
+                            사람들이 즐겜했으면 하는 마음에 서버를 만들게됬습니다.
+                            친목지향서버이고 일단 소수에서 시작할예정입니다.
+                            나이제한은 22↑킬뎃,딜량 상관없습니다
+                            
+                            여미새,남미새,여무새,남무새,여왕벌은 사절하구
+                            다른서버를 홍보하시면 자동으로 추방하고있습니다.
+                            아직 부족한거는 많지만 건의사항이나 서버사람들의 피드백을 
+                            받으면서 단점을 보완하면서 모두 즐겜할수있는 서버로 만들겠습니다</span>
+                        </p>
+                    </div>
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="red">DUO</span>
+                            <span class="coll_span">안녕하세요 저희는 카배 신생서버 BackUp 서버입니다. 
+                            사람들이 즐겜했으면 하는 마음에 서버를 만들게됬습니다.
+                            친목지향서버이고 일단 소수에서 시작할예정입니다.
+                            나이제한은 22↑킬뎃,딜량 상관없습니다
+                            
+                            여미새,남미새,여무새,남무새,여왕벌은 사절하구
+                            다른서버를 홍보하시면 자동으로 추방하고있습니다.
+                            아직 부족한거는 많지만 건의사항이나 서버사람들의 피드백을 
+                            받으면서 단점을 보완하면서 모두 즐겜할수있는 서버로 만들겠습니다</span>
+                        </p>
+                    </div>
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="blue">SQUAD</span>
+                            <span class="coll_span">https://discord.gg/PgVqtP 치킨 먹으러 가실 홍일점 모십니다 ㅋㅋㅋㅋㅋ</span>
+                        </p>
+                    </div>
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="red">DUO</span>
+                            <span class="coll_span">https://discord.gg/57GD4b
+                                400++ 3명 대기중 / 1명아무나모집</span>
+                        </p>
+                    </div>
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="blue">SQUAD</span>
+                            <span class="coll_span">https://discord.gg/smMFkC
+
+                                스쿼드 / 치킨먹즈아 / 빠른 백업 & 브리핑
+                                딜 250 ++ /성인 & 개념필</span>
+                        </p>
+                    </div>
+                    <div class="coll_line">
+                        <p class="coll_p">
+                            <span class="blue">SQUAD</span>
+                            <span class="coll_span">https://discord.gg/PgVqtP 우리의 홍일점 모십니다 ㄱㄱ</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_size">
+                    <div class="f_img1 fl">
+                    </div>
+                    <div class="f_img2 fl">
+                    </div>
+                    <div class="f_info fl">
+                        <p>
+                            <span>서비스 약관/정책</span>
+                            <span>개인정보처리방침</span>
+                            <span>청소년보호정책</span>
+                            <span>권리침해신고</span>
+                            <span>배틀그라운드 운영정책</span>
+                            <span>게임이용등급</span>
+                        </p>
+                        <div class="f_info_t">
+                            <p>(주)카카오게임즈 대표이사 : 남궁훈, 조계현경기도성남시분당구 판교역로 152 알파돔타워 14층</p>
+                            <p>사업자등록버호 : 144-81-18454 통신판매업 신고번호제 2015-경기성남-0971</p>
+                            <p>대표번호 : 1566-8834 | FAX :031-8017-8800 | E-mail : contact@kakaogames.com (본 메일은수신 전용입니다)</p>
+                        </div>
+                        <p>
+                            &copy;2017 KakaoGmes Corp. & PUBG Corporation. AllRights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.main_img{width:100%; height:300px; position: relative;}
+
+.img{width:100%; height:100%; position: absolute; top:0; left:0; display: none;}
+.img1{background:url('../img/154743595597819-main_pc_banner_2560_bg.jpg') center / cover;}
+.img2{background:url('../img/15524455148575-01_bg.jpg') center / cover;}
+.img3{background:url('../img/04_bg.jpg') center / cover;}
+.img4{background:url('../img/155376571421886-main_pc_banner_2560_bg.jpg') center / cover;}
+.img5{background:url('../img/155436661445546-main_pc_banner_2560_bg.jpg') center / cover;}
+.img6{background:url('../img/155408613247397-main_pc_banner_2560_bg.jpg') center / cover;}
+
+.img_text{width:60%; height:100%; margin:auto;}
+.img_text img{width:35%; position: absolute; top:50%; transform:translateY(-50%);}
+
+.media_g{width:85%; height:auto; background:#fff; margin:70px auto; padding:30px 50px;}
+.media_g h2{width:20%; height:80px; line-height:80px; padding:0 20px; margin:auto; font-size:26px; text-align: center;}
+.media_g_top{width:100%; height:40px; line-height: 40px; margin-top:20px;}
+
+#media_total:first-child{background:#111;}
+#media_total:first-child a{color:#fff;}
+
+.m_t_title{width:50%; height:100%;}
+.m_t_title p{width:calc((100% / 4) - 0.1px); max-width:120px; height:100%; border:1px solid #ddd; border-right:0; text-align: center; float:left; }
+.m_t_title p a{color:#222328;}
+.m_t_title p:last-child{border-right:1px solid #ddd;}
+
+.m_t_search{width:40%; height:35px;}
+.m_t_search button{width:80px; height:35px; background:#111; color:#fff; font-size:16px; }
+
+.search2 input{width:200px; height:35px; padding:5px 10px; border:1px solid #111;}
+.search1 select{display: inline-block; width:110px; height:35px; padding-left:5px; border:1px solid #111;}
+.search1,.search2{margin-right:20px;}
+
+.section{width:95%; height:330px; margin:50px auto;}
+.section_box{width:calc(((100% - 60px) / 4) - 0.1px); height:100%; margin-right:20px; border:1px solid #ddd; float:left; overflow: hidden;}
+.section_box:last-child{margin-right:0;}
+.section_box:hover .section_img{transform: scale(1.1); transition:all .3s;}
+
+.section_wrap_4{display: block;}
+.section_wrap_1,.section_wrap_2,.section_wrap_3,.section_wrap_4{display: none;}
+
+.section_t{width:100%; height:100px; padding:5px 10px;}
+.section_t p{width:calc((100% - 20px) - 0.1px); height:50px; line-height:50px; margin:auto; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.section_t_title{text-align: center;}
+.section_t_title:hover{text-decoration: underline;}
+.section_t_name{position: relative;}
+.section_t_name span{display:inline-block; height:100%; font-size:14px; position: absolute; top:-5px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.section_t_name span:first-child{width:60%; left:10px;}
+.section_t_name span:last-child{width:40%; right:10px; text-align: right;}
+
+.section_img{width:100%; height:200px; margin-top:30px;}
+
+.section_img1{background:url('../img/d83b5185e4e2aff1.jpg')no-repeat center/ contain;}
+.section_img2{background:url('https://img.youtube.com/vi/k8WdG7S3AKA/0.jpg')no-repeat center / contain;}
+.section_img3{background:url('https://img.youtube.com/vi/5Er3yNOY8d4/0.jpg')no-repeat center/ contain;}
+.section_img4{background:url('https://img.youtube.com/vi/_c6E3ZKoawo/0.jpg')no-repeat center/ contain;}
+.section_img5{background:url('https://img.youtube.com/vi/siaDCdHzEjY/0.jpg')no-repeat center/ contain;}
+.section_img6{background:url('https://img.youtube.com/vi/29DBI9fmkSA/0.jpg')no-repeat center/ contain;}
+.section_img7{background:url('../img/9f947f77ac97f684.jpg') no-repeat center/ contain;}
+.section_img8{background:url('https://img.youtube.com/vi/tjslVO4ZQuI/0.jpg') no-repeat center/ contain;}
+.section_img9{background:url('https://img.youtube.com/vi/4RDXb8AAudY/0.jpg') no-repeat center/ contain;}
+.section_img10{background:url('https://img.youtube.com/vi/hTwuMatSUTA/0.jpg') no-repeat center/ contain;}
+.section_img11{background:url('../img/acme.jpg') no-repeat center / contain;}
+.section_img12{background:url('https://img.youtube.com/vi/8x6GNngUOWI/0.jpg') no-repeat center/ contain;}
+.section_img13{background:url('https://img.youtube.com/vi/sFTgakO8rtI/0.jpg') no-repeat center/ contain;}
+.section_img14{background:url('https://img.youtube.com/vi/O65Q0Gn7Htk/0.jpg') no-repeat center/ contain;}
+.section_img15{background:url('https://img.youtube.com/vi/J2lsIYRyOKE/0.jpg') no-repeat center/ contain;}
+.section_img16{background:url('https://img.youtube.com/vi/5rq3dT3Md5M/0.jpg') no-repeat center/ contain;}
+.section_img17{background:url('https://img.youtube.com/vi/c3zIGh7SViM/0.jpg') no-repeat center/ contain;}
+.section_img18{background:url('https://img.youtube.com/vi/Bzsnf7DgczE/0.jpg') no-repeat center/ contain;}
+.section_img19{background:url('https://img.youtube.com/vi/eg3js2HvGm8/0.jpg') no-repeat center/ contain;}
+.section_img20{background:url('https://img.youtube.com/vi/J-JVzDLaHxI/0.jpg') no-repeat center/ contain;}
+
+/* section_wrap_2 section_img line */
+.section_img21{background:url('https://img.youtube.com/vi/NcndNR8EiPo/0.jpg')no-repeat center/ contain;}
+.section_img22{background:url('https://img.youtube.com/vi/QJbTo6z9CkY/0.jpg')no-repeat center / contain;}
+.section_img23{background:url('https://img.youtube.com/vi/RMN8Devog2U/0.jpg')no-repeat center/ contain;}
+.section_img24{background:url('https://img.youtube.com/vi/_FHMpmfV4Cw/0.jpg')no-repeat center/ contain;}
+.section_img25{background:url('https://img.youtube.com/vi/tk9rQwIzQkk/0.jpg')no-repeat center/ contain;}
+.section_img26{background:url('https://img.youtube.com/vi/lakH0c4OX1U/0.jpg')no-repeat center/ contain;}
+.section_img27{background:url('https://img.youtube.com/vi/Az-ZgyXTjaY/0.jpg') no-repeat center/ contain;}
+.section_img28{background:url('https://img.youtube.com/vi/-gNNggLzUtM/0.jpg') no-repeat center/ contain;}
+.section_img29{background:url('https://img.youtube.com/vi/XkHtgiupLT0/0.jpg') no-repeat center/ contain;}
+.section_img30{background:url('https://img.youtube.com/vi/sb19qKfhZIs/0.jpg') no-repeat center/ contain;}
+.section_im31{background:url('../img/2018-11-05-22-01-55.jpg') no-repeat center / contain;}
+.section_img32{background:url('https://img.youtube.com/vi/9GBIsKwuWpE/0.jpg') no-repeat center/ contain;}
+.section_img33{background:url('https://img.youtube.com/vi/TzmF_wkhWHg/0.jpg') no-repeat center/ contain;}
+.section_img34{background:url('https://img.youtube.com/vi/Wlp2d6zuLDM/0.jpg') no-repeat center/ contain;}
+.section_img35{background:url('https://img.youtube.com/vi/mwYti5HsXvU/0.jpg') no-repeat center/ contain;}
+.section_img36{background:url('https://img.youtube.com/vi/Eqvh43H1URU/0.jpg') no-repeat center/ contain;}
+.section_img37{background:url('https://img.youtube.com/vi/sxrsB2PMksE/0.jpg') no-repeat center/ contain;}
+.section_img38{background:url('https://img.youtube.com/vi/8A06gMgZmLw/0.jpg') no-repeat center/ contain;}
+.section_img39{background:url('https://img.youtube.com/vi/DNT4aqwNt-E/0.jpg') no-repeat center/ contain;}
+.section_img40{background:url('../img/1.jpg') no-repeat center/ contain;}
+
+/* section_wrap_3 section_img line */
+.section_img41{background:url('../img/2222.jpg')no-repeat center/ contain;}
+.section_img49{background:url('../img/20180128_194521.jpg') no-repeat center/ contain;}
+.section_img50{background:url('../img/1-(1).jpg') no-repeat center/ contain;}
+.section_img51{background:url('https://img.youtube.com/vi/VrAm09kRxrY/0.jpg') no-repeat center / contain;}
+.section_img52{background:url('../img/down.jpg') no-repeat center/ contain;}
+.section_img54{background:url('https://img.youtube.com/vi/-Og3NY5VYOM/0.jpg') no-repeat center/ contain;}
+.section_img55{background:url('https://img.youtube.com/vi/yGxrRPPvs5I/0.jpg') no-repeat center/ contain;}
+.section_img56{background:url('https://img.youtube.com/vi/tfR5zkwFyOA/0.jpg') no-repeat center/ contain;}
+.section_img57{background:url('https://img.youtube.com/vi/flXV0CXU6yE/0.jpg') no-repeat left/ contain;}
+.section_img58{background:url('https://img.youtube.com/vi/K2LZr8Q3vHg/0.jpg') no-repeat center/ contain;}
+
+/* section_wrap_1 section_img line */
+.section_img61{background:url('https://img.youtube.com/vi/AiZjduNKIY4/0.jpg')no-repeat center/ contain;}
+.section_img62{background:url('https://img.youtube.com/vi/4mUYsnjxZ_M/0.jpg')no-repeat center / contain;}
+.section_img63{background:url('https://img.youtube.com/vi/EzUFNQU8CDo/0.jpg')no-repeat center/ contain;}
+.section_img77{background:url('https://img.youtube.com/vi/bKqKIK1FL2Q/0.jpg') no-repeat center/ contain;}
+.section_img78{background:url('https://img.youtube.com/vi/yV0xUCIIeOE/0.jpg') no-repeat center/ contain;}
+.section_img79{background:url('https://img.youtube.com/vi/m1q9xJvrPRo/0.jpg') no-repeat center/ contain;}
+.section_img80{background:url('https://img.youtube.com/vi/J-FjfTolaFUzE/0.jpg') no-repeat center/ contain;}
+
+.section_num{width:40%; height:40px; margin:auto;}
+.section_num p{width:calc((100% / 11) - 0.1px); height:100%; float:left; line-height:40px; text-align: center;}
+.section_num p:hover{background:#111; color:#fff;}
+ 
+@media screen and (max-width:1500px) {
+    .media_g{width:95%;}
+    .img_text{width:70%;}
+    .header_size{width:95%;}
+}

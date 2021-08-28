@@ -1,0 +1,39 @@
+.company{height:900px;}
+
+.com_fr2{width:75%; height:100%; padding:50px; float:left;}
+
+.b_img1{background:url('../img/computer-918678_960_720.jpg')no-repeat center / cover;}
+.b_img2{background:url('../img/다운로드.jpg')no-repeat center / cover;}
+
+.busi_t3,.busi_t1{padding-left:20px;}
+.busi_t3,.ham_menu{display: none;}
+.busi_t3,.busi_t2,.busi_t1{width:60%; height:100%; padding-top:20px;}
+.busi_t3 h2,.busi_t2 h2,.busi_t1 h2{margin-bottom:30px; color:navy; font-size:23px;}
+
+.busi_t2{padding-right:20px;}
+.busi_img{width:40%; height:100%; transform:scale(0);}
+.busi_t1 p,.busi_t2 p{margin-bottom:15px; font-size:15px;}
+
+.busi_2,.busi_1{width:100%; height:50%; padding:30px 0;}
+
+@media screen and (max-width:1024px) {
+    .com_fl{display: none;}
+    .com_fr2{width:100%;}
+}
+
+@media screen and (max-width:815px) {
+    .company{height:1200px;}
+
+    .busi_t1{padding-left:0;}
+    .busi_t2{display:none;}
+    .busi_t3{display:block; width:100%; height:50%; padding-left:0;}
+    .busi_img{width:100%; height:50%; float:none;}
+    .busi_t1,.busi_t2{width:100%; height:50%; float:none;}
+}
+
+@media screen and (max-width:480px) {
+    .com_fr2{height:1500px; padding:50px 10px;}
+    .busi_t1 p,.busi_t3 p{font-size:14px;}
+    .busi_t1 h2,.busi_t3 h2{margin-bottom:15px;}
+    
+}

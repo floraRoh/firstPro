@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대전광역시 코로나19 - 발생 현황</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="css/clone-daejeon-top.css">
+    <link rel="stylesheet" href="css/clone-daejeon-sub.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/clone-daejeon.js"></script>
+    <!-- face book 공유 메타태그 -->
+    <meta property="og:url" content="http://hyewon.pe.kr/html/clone-daejeon-sub.html">
+    <meta property="og:title" content="대전 코로나 페이스북 공유">
+    <meta property="og:image" content="img/logo%20(1).png">
+    <meta property="og:description" content="대전 코로나 페이스북 공유">
+    <!-- kakao 공유 메타태그 -->
+    <script src="https://developers.kakao.co./sdk/js/kakao.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_inner horizon_width">
+                <div class="left">
+                    <img src="img/logo (1).png" alt="대전광역시 로고">
+                </div>
+                <a href="#" class="right color_white">
+                    코로나바이러스감염증-19 (질병관리본부) 바로가기
+                </a>
+                <p class="tit cl_b color_white">대전광역시 코로나 19 현황</p>
+                <ul class="btn">
+                    <li><a href="#">발생 현황</a></li>
+                    <li><a href="#">확진자 정보</a></li>
+                    <li><a href="clone-daejeon-sub2.html">시민 알림</a></li>
+                    <li><a href="#">선별진료소현황</a></li>
+                    <li><a href="#">코로나정보</a></li>
+                </ul>
+            </div>
+        </header>
+        <nav class="horizon_width">
+            <ul class="share">
+                <li class="kakao" onclick="share_kakao();"></li>
+                <li class="face" onclick="share_face();"></li>
+                <li class="link"></li>
+                <li class="print"></li>
+            </ul>
+        </nav>
+        <section class="horizon_width cl_b">
+
+            <div class="info_box box1">
+                <div class="tit">
+                    <div class="left">
+                       대전 현황
+                        <a href="#" class="map_btn color_white">
+                            자치구별 확진환자
+                            <span>▶</span>
+                            <span class="color_white">▶</span>
+                        </a>
+                    </div>
+                    <div class="right">
+                        '20.09.17. 20시 기준
+                    </div>
+                </div>
+                <div class="info cl_b">
+                    <table>
+                        <tr>
+                            <th colspan="4" class="color_white">확진환자</th>
+                        </tr>
+                        <tr>
+                            <td class="border_R color_white">총계</td>
+                            <td class="border_R color_white">격리해제</td>
+                            <td class="border_R color_white">격리중</td>
+                            <td class="color_white">사망</td>
+                        </tr>
+                        <tr class="total">
+                            <td><strong>350</strong>명</td>
+                            <td><strong>287</strong>명</td>
+                            <td><strong>60</strong>명</td>
+                            <td><strong>3</strong>명</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="color_white">의사환자 및 유증상자</th>
+                        </tr>
+                        <tr>
+                            <td class="border_R color_white">검사중</td>
+                            <td class="border_R color_white">결과음성</td>
+                        </tr>
+                        <tr class="total">
+                            <td><strong>323</strong>명</td>
+                            <td><strong>65,153</strong>명</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="color_white">접촉자</th>
+                        </tr>
+                        <tr>
+                            <td class="border_R color_white">격리중</td>
+                            <td class="border_R color_white">격리해제</td>
+                        </tr>
+                        <tr class="total">
+                            <td><strong>439</strong>명</td>
+                            <td><strong>4,694</strong>명</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="info_box box2 cl_b">
+                <div class="tit">
+                    <div class="left">해외입국자 검사현황</div>
+                    <div class="right">'20.09.17.18시 기준</div>
+                </div>
+                <div class="info cl_b">
+                    <table>
+                        <tr>
+                            <th rowspan="2" class="border_R color_white">구 분</th>
+                            <th rowspan="2" class="border_R color_white">대상자수</th>
+                            <th colspan="4" class="color_white">검사현황</th>
+                        </tr>
+                        <tr>
+                            <td  class="border_R color_white">양성<span class="color_yellow">*</span></td>
+                            <td class="border_R color_white">음성</td>
+                            <td class="border_R color_white">검사중</td>
+                            <td class="border_R color_white">검사예정</td>
+                        </tr>
+                        <tr class="total">
+                            <td><span>누 계</span></td>
+                            <td><strong>9,638</strong>명
+                            </td>
+                            <td><strong>22</strong>명
+                            </td>
+                            <td><strong>9,585</strong>명
+                            </td>
+                            <td><strong>24</strong>명
+                            </td>
+                            <td><strong>7</strong>명
+                            </td>
+                        </tr>
+                        <tr class="total">
+                            <td><span>전일대비 증감</span></td>
+                            <td><strong>+34</strong>명
+                            </td>
+                            <td><strong>+1</strong>명
+                            </td>
+                            <td><strong>+61</strong>명
+                            </td>
+                            <td><strong>-23</strong>명
+                            </td>
+                            <td><strong>-5</strong>명
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="global">※ 4.1일 이후 / 미국 6</strong>명, 영국 1</strong>명, 캐나다 1</strong>명, 방글라데시 1</strong>명, 카자흐스탄 1</strong>명, 우즈베키스탄 3</strong>명, 알바니아 2</strong>명, 인도네시아 1</strong>명, 에티오피아 1</strong>명, 세네갈
+                        1</strong>명,
+                        보스니아 1</strong>명 중국 1</strong>명, 솔로몬제도 1</strong>명, 폴란드 1</strong>명</p>
+                </div>
+            </div>
+            <div class="info_box box3">
+                <div class="tit">
+                    <div class="left">전국 현황</div>
+                    <div class="right">중앙방역대책본부 '20.09.17.0시 기준</div>
+                </div>
+                <div class="info cl_b">
+                    <table>
+                        <tr>
+                            <th>확진환자</th>
+                        </tr>
+                        <tr class="total">
+                            <td><strong>22,657</strong>명</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>격리해제자</th>
+                        </tr>
+                        <tr class="total">
+                            <td><strong>19,543</strong>명</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>사망자</th>
+                        </tr>
+                        <tr class="total">
+                            <td><strong>372</strong>명</td>
+                        </tr>
+                    </table>
+                    <div class="goto cl_b"><a href="#" class="color_white">코로나 19 전국 현황 자세히 보러가기</a></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="left color_white">
+                (35242) 대전광역시 서구 둔산로 100 (둔산동)<br>
+                <span>(c) DAEJEON METROPOLITAN CITY. ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="right">
+                질병관리본부 콜센터 <strong>1339</strong><br>
+                대전시 콜센터 <strong>042) 120</strong>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/battle_header_footer.css">
+    <link rel="shortcut icon" href="img/untitled_1_n5o_icon.ico">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/notice.js"></script>
+    <script src="js/battle_menu_slide.js"></script>
+    <script src="js/media_fade.js"></script>
+    <title>배틀그라운드 | Daum 게임</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <div class="daum_logo fl">
+                <a href="index.html">
+                    <img src="img/20170315064553027.png" alt="">
+                </a>
+            </div>
+            <div class="join fr">
+                <p>Daum 홈페이지 이동</p>
+                <p>회원가입</p>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header_size">
+            <div class="logo fl">
+                <a href="index.html">
+                    <img src="img/logo_pubg.png" alt="로고">
+                </a>
+            </div>
+            <ul class="menu fl">
+                <li class="main_menu menu1">
+                    <a href="battle_notice.html">새소식</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_notice.html">공지사항</a></li>
+                        <li><a href="battle_notice.html">업데이트</a></li>
+                        <li><a href="battle_notice.html">GM소식</a></li>
+                        <li><a href="battle_notice.html">대회소식</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu2">
+                    <a href="battle_media.html">가이드</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">게임 가이드</a></li>
+                        <li><a href="battle_media.html">지도 정보/공략</a></li>
+                        <li><a href="battle_media.html">아이템 DB</a></li>
+                        <li><a href="battle_media.html">의상 스킨</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu3">
+                    <a href="battle_notice.html">커뮤니티</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_notice.html">플레이어 게시판</a></li>
+                        <li><a href="battle_notice.html">미디어 게시판</a></li>
+                        <li><a href="battle_notice.html">DUO/SQUAD모집</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu4">
+                    <a href="battle_media.html">SNS</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">디스코드</a></li>
+                        <li><a href="battle_media.html">페이스북</a></li>
+                        <li><a href="battle_media.html">유튜브</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu5">
+                    <a href="battle_notice.html">이벤트</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_notice.html">이벤트</a></li>
+                        <li><a href="battle_notice.html">포인트 교환소</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu6">
+                    <a href="battle_media.html">상점</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">게임구매</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu7">
+                    <a href="battle_notice.html">자료실</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">다운로드</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu menu8">
+                    <a href="battle_media.html">고객센터</a>
+                    <ul class="sub_menu">
+                        <li><a href="battle_media.html">고객센터</a></li>
+                        <li><a href="battle_media.html">신고센터</a></li>
+                        <li><a href="battle_media.html">보안센터</a></li>
+                    </ul>
+                </li>
+                <div class="fake_sub"></div>
+            </ul>
+            <div class="header_login fr">
+                <p><a href="#">LOGIN</a></p>
+                <p class="game_start"><a href="#">
+                </a></p>
+            </div>
+        </div>
+        </div>
+        <div class="main_img">
+            <div class="img img1">
+                <div class="img_text">
+                    <img src="img/15474359691224-main_pc_banner_txt.png" alt="">
+                </div>
+            </div>
+            <div class="img img2">
+                <div class="img_text">
+                    <img src="img/155237580796532-01_txt.png" alt="">
+                </div>
+            </div>
+            <div class="img img3">
+                <div class="img_text">
+                    <img src="img/04_txt.png" alt="">
+                </div>
+            </div>
+            <div class="img img4">
+                <div class="img_text">
+                    <img src="img/155376572502280-main_pc_banner_txt1.png" alt="">
+                </div>
+            </div>
+            <div class="img img5">
+                <div class="img_text">
+                    <img src="img/155436662242351-main_pc_banner_txt1.png" alt="">
+                </div>
+            </div>
+            <div class="img img6">
+                <div class="img_text">
+                    <img src="img/155364974429624-main_pc_banner_txt1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="media_g">
+            <h2>공지사항</h2>
+            <div class="media_g_top">
+                <div class="m_t_title fl">
+                    <p id="media_total">
+                        <a href="#">전체</a>
+                    </p>
+                    <p id="media_best">
+                        <a href="#">공지사항</a>
+                    </p>
+                    <p id="media_screen">
+                        <a href="#">업데이트</a>
+                    </p>
+                    <p id="media_video">
+                        <a href="#">이벤트</a>
+                    </p>
+                    <p id="media_comp">
+                        <a href="#">대회소식</a>
+                    </p>
+                </div>
+                <div class="m_t_search fr">
+                    <div class="search1 fl">
+                        <select name="" id="">
+                            <option>제목</option>
+                            <option>제목 + 본문</option>
+                            <option>작성자</option>
+                        </select>
+                    </div>
+                    <div class="search2 fl">
+                        <input type="search">
+                    </div>
+                    <button>검색</button>
+                </div>
+            </div>
+            <div class="section_title">
+                <p>구분</p>
+                <p>제목</p>
+                <p>작성자</p>
+                <p>작성일</p>
+            </div>
+            <div class="section_wrap_1">
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>알려진 이슈 사항 - 2019/04/10</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>3월 및 4월 포인트 교환소 일정 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>킬배틀의 정점 '큰손' 최종화 댓글 이벤트 당첨자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.03</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>FACEIT Global Summit 대회 및 특별 아이템 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.03</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>서바이버 패스3: 와일드카드 판매 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.28</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월10일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.11 </p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>[정상화] 게임 시작 버튼 미노출 현상 대응 완료</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.11</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월9일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>알려진 이슈 사항 - 2019/04/10</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>[정상화] 간헐적인 게임 접속 장애 대응 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>3월 및 4월 포인트 교환소 일정 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>[완료] 4월 10일(수) 정기점검 안내 (09:30~12:44)</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.09</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월8일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.09</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월8일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.09</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월7일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.08</p>
+                </div>
+                <div class="section_num">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>〉</p>
+                </div>
+            </div> <!-- section_wrap_1 -->
+            
+            <div class="section_wrap_2">
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>알려진 이슈 사항 - 2019/04/10</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>3월 및 4월 포인트 교환소 일정 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>FACEIT Global Summit 대회 및 특별 아이템 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.03</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>서바이버 패스3: 와일드카드 판매 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.28</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>가상사설망(VPN) 일명 ‘지피방’ 조사에 대한 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>17.12.20 </p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월11일 불법프로그램 제재 및 모니터링 안내 새글</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>14:27</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월10일 불법프로그램 제재 및 모니터링 안내 새글</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.11</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>[정상화] 게임 시작 버튼 미노출 현상 대응 완료</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.11</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월9일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+               
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>알려진 이슈 사항 - 2019/04/10</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>[정상화] 간헐적인 게임 접속 장애 대응 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>3월 및 4월 포인트 교환소 일정 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.10</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>[완료] 4월 10일(수) 정기점검 안내 (09:30~12:44)</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.09</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>4월8일 불법프로그램 제재 및 모니터링 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.09</p>
+                </div>
+                <div class="section_line">
+                    <p>공지사항</p>
+                    <p>SKT 휴대폰 본인확인 서비스 점검 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.09</p>
+                </div>
+                <div class="section_num">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>〉</p>
+                </div>
+            </div><!-- section_wrap_2 -->
+            
+            <div class="section_wrap_3">
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가/수정] 정식서비스(1.0 버전) 27차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.20</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[수정] 정식서비스(1.0 버전) 26차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.20</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가/수정] 정식서비스(1.0 버전) 25차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.01.23</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[수정] 정식서비스(1.0 버전) 24차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.12.07</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>사용자 지정 매치 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.11.22</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가] 정식서비스(1.0 버전) 23-1차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.11.16</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가/수정] 정식서비스(1.0 버전) 23차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.10.18</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가] 정식서비스(1.0 버전) 22차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.09.20</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가] 정식서비스(1.0 버전) 21차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.09.06</p>
+                </div>
+                
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>[추가/수정] 정식서비스(1.0 버전) 20차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.08.16</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>정식서비스(1.0 버전) 19차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.08.02</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>정식서비스(1.0 버전) 18차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.07.17</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>정식서비스(1.0 버전) 17-1차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.07.11</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>정식서비스(1.0 버전) 17차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.07.04</p>
+                </div>
+                <div class="section_line">
+                    <p>업데이트</p>
+                    <p>정식서비스(1.0 버전) 16차 업데이트 내역</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.06.27</p>
+                </div>
+                <div class="section_num">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>〉</p>
+                </div>
+            </div><!-- section_wrap_3 -->       
+            
+            <div class="section_wrap_4">
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>킬배틀의 정점 '큰손' 최종화 댓글 이벤트 당첨자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.03</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>킬배틀의 정점 '큰손' 설문 참여 이벤트 당첨자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.04</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>킬배틀의 정점 '큰손' 최종화 댓글 이벤트 당첨자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.04.03</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>킬배틀의 정점 '큰손' 2화 댓글 이벤트 당참자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.27</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>킬배틀의 정점 '큰손' 1화 댓글 이벤트 당첨자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.03.20</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>2월 포인트 교환소 응모경품 당첨자 발표</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.03.19</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>운영자 주최 이벤트 매치 당첨자 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.19</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>Best Hot Clip #27 당첨자</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.14</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>3월! 비켄디 신차 인증 이벤트 당첨자 발표</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.12</p>
+                </div>
+                
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>배틀그라운드에도 봄이 왔나 봄 이벤트 당첨자 발표</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.05</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>Best Hot Clip #26 당첨자</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.21</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>Best Hot Clip #25 당첨자</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.14</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>보안 서비스 사용 이벤트 당첨자 발표</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.14</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>설 맞이 새해 덕담 이벤트 당첨자 발표</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.11</p>
+                </div>
+                <div class="section_line">
+                    <p>이벤트</p>
+                    <p>생존의 달인 이벤트 당첨자 발표</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.07</p>
+                </div>
+                <div class="section_num">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>〉</p>
+                </div>
+            </div><!-- section_wrap_4 -->                    
+
+            <div class="section_wrap_5">
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>[PKL] 2019 PKL Phase1 종료! FACEIT 한국 출전 팀 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.03.26</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>2019 인텔 PKC Phase 1 간단히 알아보기!ㄴ</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.18</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>2019 HOT6 PUBG KOREA LEAGUE Phase1 개막 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.02.11</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>2019 PKL Phase1 조 지명식</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.01.30</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>PKL Phase1 및 조 지명식 & PKC Phase1 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.01.28</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>PUBG ASIA INVITATIONAL 2019 (PAI)</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>19.01.03</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>PUBG KOREA LEAGUE 2018 #2 결승전 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.11.12</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>KT 10 GiGA internet PUBG KOREA LEAGUE 2018 #2</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.09.21</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>PUBG KOREA LEAGUE 2018 #2 마지막 탑승 팀은 누구?</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.09.07</p>
+                </div>
+                
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>OGN SUPERMATCH SEOUL CUP</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.08.24</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>PUBG 글로벌 e스포츠 대회 생중계 안내</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.07.11</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>OGN PSS 2018 시즌2 결승전</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.07.04</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>AfreecaTV APL 2018 시즌2 FINALS</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.06.26</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>AfreecaTV APL 2018 시즌2</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.06.14</p>
+                </div>
+                <div class="section_line">
+                    <p>대회소식</p>
+                    <p>SPOTV PWM 2018</p>
+                    <p class="section_line_img">
+                        <img src="img/gm_writer.png" alt="">
+                    </p>
+                    <p>18.06.14</p>
+                </div>
+                <div class="section_num">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>〉</p>
+                </div>
+            </div><!-- section_wrap_5 -->            
+        </div>                
+        
+        <div class="footer">
+            <div class="footer_size">
+                <div class="f_img1 fl">
+                </div>
+                <div class="f_img2 fl">
+                </div>
+                <div class="f_info fl">
+                    <p>
+                        <span>서비스 약관/정책</span>
+                        <span>개인정보처리방침</span>
+                        <span>청소년보호정책</span>
+                        <span>권리침해신고</span>
+                        <span>배틀그라운드 운영정책</span>
+                        <span>게임이용등급</span>
+                    </p>
+                    <div class="f_info_t">
+                        <p>(주)카카오게임즈 대표이사 : 남궁훈, 조계현경기도성남시분당구 판교역로 152 알파돔타워 14층</p>
+                        <p>사업자등록버호 : 144-81-18454 통신판매업 신고번호제 2015-경기성남-0971</p>
+                        <p>대표번호 : 1566-8834 | FAX :031-8017-8800 | E-mail : contact@kakaogames.com (본 메일은수신 전용입니다)</p>
+                    </div>
+                    <p>
+                        &copy;2017 KakaoGmes Corp. & PUBG Corporation. AllRights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

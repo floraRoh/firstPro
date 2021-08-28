@@ -1,0 +1,32 @@
+.red{color:red;}
+
+.qna{width:70%; height:auto; margin:50px auto; overflow: hidden;}
+.qna h1{padding-left:30px; margin-bottom:30px; color:#666; font-weight: normal;}
+.qna_box{width:100%; margin-bottom:5px;}
+
+.qn{line-height: 60px; padding:0 20px; background:#efefef; border:1px solid #ddd; color:#333; font-weight: bold; cursor: pointer;}
+.na{display: none; line-height: 30px; padding:10px 30px; background:#fff; border:1px solid #ddd; border-top:0; font-size:14px;}
+
+.qna_img2{display: none;}
+.qna_img2,.qna_img{font-size:20px; font-weight: bold; float:right;}
+
+.qna_online{width:180px; height:50px; line-height: 50px; margin-top:20px; border:1px solid; font-weight: bold; text-align: center; position: relative; float:right; overflow: hidden; cursor: pointer;}
+.qna_online a{color:#666;}
+.qna_online:hover .fake_online{transform: translateY(0); transition:all .3s;}
+
+.fake_online{width:100%; height:100%; background:#000; position: absolute; top:0; left:0; transform: translateY(-100%);}
+.fake_online a{color:#fff; font-weight: normal;}
+
+.ham_menu{display: none;}
+
+@media screen and (max-width:1024px) {
+    .qna{width:80%;}
+}
+
+@media screen and (max-width:768px) {
+    .qna{width:95%;}
+    .qna_online{width:60%; margin:20px auto 0; float:none;}
+    .qna_box{width:100%;}
+    .qn_a{display: inline-block; width:97%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+    .qna_img{display: inline-block; width:3%;}
+}

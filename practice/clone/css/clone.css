@@ -1,0 +1,87 @@
+.mg_b_100{margin-bottom:100px;}
+.main_img{width:100%; height:100%; position: absolute; top:0; left:100%;}
+.main_banner{width:100%; height:700px; position: relative; overflow: hidden;}
+
+.img1{background:url('../img/architecture-1448221_1920.jpg')no-repeat center / cover;}
+.img2{background:url('../img/businessman-2682712_1920.jpg')no-repeat center / cover;}
+.img3{background:url('../img/300kLCNbXcYtk1bgolYNKWV61FjeXunpOk5jJ3x3uva.jpg')no-repeat center / cover;}
+
+
+.left{left:30px;}
+.right{right:30px;}
+.right,.left{width:50px; height:50px; color:#fff; font-size:50px; position: absolute; top:50%; transform:translateY(-50%); z-index:999;}
+
+.indi{width:140px; height:20px; position: absolute; bottom:30px; left:50%; transform:translateX(-50%);}
+.indi_cir{width:20px; height:100%; margin-right:37px; background:rgba(0,0,0,.5); border-radius:25px; float:left;}
+.indi_cir:last-child{margin-right:0;}
+
+/* content */
+.business,.contact,.content{ width:100%; height:600px;}
+
+.content{padding:50px 0; background:#faf7f7;}
+.content_top{width:500px; height:100px; margin:auto; color:#999; text-align: center;}
+.content_bot{width:100%; height:calc((100% - 50px) - 0.1px);}
+.content_size{width:100%; max-width:1200px; height:calc((100% - 50px) - 0.1px); margin:auto;}
+
+.t_big{font-size:40px; font-weight: bold; letter-spacing: 10px;}
+.t_small{font-size:16px;}
+
+.con{width:calc((100% / 4) - 0.1px); height:calc((100% - 80px) - 0.1px); margin-top:30px; transform:translateY(30%); float:left; overflow: hidden; opacity: 0;}
+.con_img{width:70%; height:70%; margin:auto; background:#666; border-radius: 200px; overflow: hidden;}
+.con_img:hover img{transform: scale(1.2); transition:all .5s;}
+
+.con_t{text-align: center;}
+.con_t_title{padding-top:15px; color:#888; font-size:20px; font-weight: bold;}
+.con_t_small{padding-top:10px; font-size:14px;}
+
+.contact_size,.business_size{width:100%; max-width:1200px; height:100%; margin:auto;}
+
+.contact_top{color:#444; text-align: center;}
+.contact_top h1,.business_top h1{margin-bottom:10px; font-size:40px;}
+
+.contact_bot,.business_bot{width:100%; height:calc((100% - 75px) - 0.1px);}
+
+.contact{margin:50px 0; transform: translateY(15%); opacity: 0;}
+.contact_bot_fl{width:60%; height:80%; margin-top:3%; float:left; overflow: hidden;}
+.contact_bot_fr{width:calc((40% - 60px) - 0.1px); height:80%; padding:0 40px; margin-top:5%; float:left;}
+.contact_bot_fr p{line-height: 40px; color:#444; font-size:15px; text-indent: 10px;}
+.contact_bot_fr h2{line-height: 50px; border-bottom:1px solid #666; color:#666; letter-spacing: 10px; text-indent: 10px;}
+
+
+
+.business{padding:50px 0; background:url('../img/main_visual_002.jpg')no-repeat; background-attachment: fixed;}
+.business_top{color:#fff; text-align: center;}
+
+.business_box{width:calc(((100% - 80px) / 3) - 0.1px); height:calc((100% - 50px) - 0.1px); margin-top:50px; margin-right:40px; transform:translateY(30%); float:left; overflow: hidden; opacity:0;}
+.business_box_txt{padding-top:10px; color:#fff; text-align: center;}
+.business_box:last-child{margin-right:0;}
+.business_box_img{width:100%; height:80%; margin:auto; overflow: hidden;}
+.business_box_img:hover img{transform: scale(1.2); transition:all .5s;}
+
+.p_t{margin-top:26px;}
+.ham_menu{display: none;}
+
+@media screen and (max-width:1200px) {
+    .con{width:calc(((100% - 30px) / 2) - 0.1px); height:calc((50% - 75px) - 0.1px); border-radius: 0;}
+    .con_img{width:100%; height:80%; border-radius: 0;}
+    .con_img img{width:100%;}
+    .con:nth-child(odd){margin-right:30px;}
+    
+    .content{height:1400px;}
+    .content_size{height:100%;}
+    
+}
+
+@media screen and (max-width:768px) {
+    .con{width:100%; height:calc((25% - 40px) - 0.1px); float:none;}
+    .con_img{height:70%;}
+
+    .content{height:1800px;}
+
+    .business{height:1800px;}
+    .business_box{width:100%; height:calc(((100% - 120px) / 3) - 0.1px); float:none;}
+    .business_box_img img{width:100%;}
+    .business_box:last-child .business_box_img img{height:100%;}
+
+    .contact_bot_fr,.contact_bot_fl{width:100%; height:calc((50% - 50px) - 0.1px); float:none;}
+}
