@@ -1,0 +1,9 @@
+.wrap{width:100vw; height:100vh; background:#325b61 url('../img/back.jpg') no-repeat 50% 20%; background-size:cover; padding:40px; position: relative; font-family: 'Cafe24Oneprettynight';}
+
+.wrap ul li a {color:white;}
+
+.wrap .list {position: absolute; top:40%; left:4%;}
+.wrap .list li {margin-bottom:20px; font-size:1.4rem;}
+
+.wrap .bottom {position: absolute; bottom: 5%; right:4%;  text-align:right; font-size:2.5rem; color:white;}
+.wrap .bottom li:nth-child(2) {font-size:1rem; margin-top:10px;}
