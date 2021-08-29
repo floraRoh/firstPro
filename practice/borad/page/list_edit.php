@@ -83,7 +83,7 @@
             <tr>
               <th>내용</th>
               <td>
-                <textarea name="_content" id="_content" cols="60" rows="30" ><?= $content ?></textarea>
+                <textarea name="_content" id="_content" cols="60" rows="30"><?= $content ?></textarea>
               </td>
             </tr>
             <tr>

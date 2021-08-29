@@ -22,15 +22,13 @@ function share_kakao() {
   });
 }
 
-$(document).ready(function() {
-    let n_href = window.location.pathname;
-    console.log(n_href);
-    if(n_href == '/html/clone-daejeon-sub2.html') {
-        $('header ul.btn li:nth-child(3)').addClass('back_yellow');
-    }else if(n_href == '/html/clone-daejeon-sub.html') {
-        $('header ul.btn li:nth-child(1)').addClass('back_yellow');
-    }else{
-
-    }
-
+$(document).ready(function () {
+  let n_href = window.location.pathname;
+  console.log(n_href);
+  if (n_href == "/html/clone-daejeon-sub2.html") {
+    $("header ul.btn li:nth-child(3)").addClass("back_yellow");
+  } else if (n_href == "/html/clone-daejeon-sub.html") {
+    $("header ul.btn li:nth-child(1)").addClass("back_yellow");
+  } else {
+  }
 });

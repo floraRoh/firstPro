@@ -83,8 +83,7 @@
 						$connect = mysqli_connect("localhost", "board_host", "1111", "board_smc");
 						$query = 'select * from board order by idx desc';
 						$result = $connect->query($query);
-						while ($row = mysqli_fetch_assoc($result))
-						{
+						while ($row = mysqli_fetch_assoc($result)) {
 						?>
 							<tr>
 								<td>
@@ -92,22 +91,22 @@
 								</td>
 								<td><?= $row['idx'] ?></td>
 								<td>
-										<a href="page/list_save.php?idx=<?= $row['idx']?>"><?= $row['title'] ?></a>
+									<a href="page/list_save.php?idx=<?= $row['idx'] ?>"><?= $row['title'] ?></a>
 								</td>
 								<td><?= $row['name'] ?></td>
 								<td><?= $row['date'] ?></td>
 								<td><?= $row['view'] ?></td>
 							</tr>
-							<?php
+						<?php
 						}
-							?>
+						?>
 					</tbody>
 				</table>
 			</article>
 		</section>
 		<footer class=" colorWhite">
 			© Copyright 2020 by&nbsp;The SMC GROUP. All Rights Reserved.
-			</footer>
+		</footer>
 	</div>
 </body>
 

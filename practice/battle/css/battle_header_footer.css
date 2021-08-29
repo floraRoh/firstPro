@@ -1,57 +1,207 @@
-*{padding:0; margin:0; border:0; list-style: none;text-decoration: none; box-sizing: border-box; cursor: pointer; outline:none;}
-a{color:#fff;}
-.fl{float:left;}
-.fr{float:right;}
-.mg100{margin-top:100px;}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+a {
+  color: #fff;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mg100 {
+  margin-top: 100px;
+}
 
-body{background:#efefef;}
-.wrap{width:100%; max-width:1920px; min-width:1500px; margin:auto; height:auto; overflow: hidden;}
+body {
+  background: #efefef;
+}
+.wrap {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1500px;
+  margin: auto;
+  height: auto;
+  overflow: hidden;
+}
 
 /* top */
-.top{width:100%; height:60px; background:#fff;}
+.top {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+}
 
-.logo{width:100px; height:91px; padding:25px 0; text-align: center;}
-.daum_logo{width:85%; height:60px; text-align: center; padding-left:280px;}
+.logo {
+  width: 100px;
+  height: 91px;
+  padding: 25px 0;
+  text-align: center;
+}
+.daum_logo {
+  width: 85%;
+  height: 60px;
+  text-align: center;
+  padding-left: 280px;
+}
 
-.join{width:15%; height:60px; font-size:14px;}
-.join p{float:left; line-height: 60px; margin-right:20px;}
-.join p:hover{text-decoration: underline;}
+.join {
+  width: 15%;
+  height: 60px;
+  font-size: 14px;
+}
+.join p {
+  float: left;
+  line-height: 60px;
+  margin-right: 20px;
+}
+.join p:hover {
+  text-decoration: underline;
+}
 
 /* header */
-.header{width:100%; height:91px; background:#111; position: relative;}
-.header_login{width:370px; height:100%;line-height:100px;}
-.header_login p{float:left; margin-right:20px;}
-.header_size,.footer_size{width:80%; min-width:1200px; height:100%; margin:auto;}
+.header {
+  width: 100%;
+  height: 91px;
+  background: #111;
+  position: relative;
+}
+.header_login {
+  width: 370px;
+  height: 100%;
+  line-height: 100px;
+}
+.header_login p {
+  float: left;
+  margin-right: 20px;
+}
+.header_size,
+.footer_size {
+  width: 80%;
+  min-width: 1200px;
+  height: 100%;
+  margin: auto;
+}
 
-.fixed{position: fixed; top:0; left:0; z-index: 9999;}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
 
-.game_start{width:100%; max-width:248px; height:100%; margin-right:0; background:url('../img/img_start.jpg') no-repeat ; font-size:20px; overflow: hidden;}
+.game_start {
+  width: 100%;
+  max-width: 248px;
+  height: 100%;
+  margin-right: 0;
+  background: url("../img/img_start.jpg") no-repeat;
+  font-size: 20px;
+  overflow: hidden;
+}
 
 /* main_menu */
-.menu{width:60%; height:100%;}
-.menu5{width:11.5%;}
-.menu8{margin-right:0;}
-.menu2,.menu3{width:14%;}
-.menu4,.menu6,.menu7{width:7%;}
+.menu {
+  width: 60%;
+  height: 100%;
+}
+.menu5 {
+  width: 11.5%;
+}
+.menu8 {
+  margin-right: 0;
+}
+.menu2,
+.menu3 {
+  width: 14%;
+}
+.menu4,
+.menu6,
+.menu7 {
+  width: 7%;
+}
 
-.main_menu{width:calc(((100% - 100px) / 8) - 0.1px); height:100%; line-height: 91px; margin-right:10px; background:#111;font-size:14px;text-align: center; position: relative; float:left;}
+.main_menu {
+  width: calc(((100% - 100px) / 8) - 0.1px);
+  height: 100%;
+  line-height: 91px;
+  margin-right: 10px;
+  background: #111;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
 
-.sub_menu{display: none; width:100%; height:200px; line-height:50px; background:#111; font-size:15px; position: absolute; top:91px; left:0; z-index: 3;}
+.sub_menu {
+  display: none;
+  width: 100%;
+  height: 200px;
+  line-height: 50px;
+  background: #111;
+  font-size: 15px;
+  position: absolute;
+  top: 91px;
+  left: 0;
+  z-index: 3;
+}
 
-.fake_sub{display: none; width:100%; height:250px; background:#111; position: absolute; top:91px; left:0; z-index:2;}
+.fake_sub {
+  display: none;
+  width: 100%;
+  height: 250px;
+  background: #111;
+  position: absolute;
+  top: 91px;
+  left: 0;
+  z-index: 2;
+}
 
 /* footer */
-.footer{width:100%; height:300px; background:#000; color:#fff;}
+.footer {
+  width: 100%;
+  height: 300px;
+  background: #000;
+  color: #fff;
+}
 
-.f_img1{width:20%; background:url('../img/f_kakaogame.jpg') no-repeat; background-size:contain; margin-top:100px;}
-.f_img2{width:10%; background:url('../img/f_logo.jpg') no-repeat; background-size:contain; margin-top:90px;}
+.f_img1 {
+  width: 20%;
+  background: url("../img/f_kakaogame.jpg") no-repeat;
+  background-size: contain;
+  margin-top: 100px;
+}
+.f_img2 {
+  width: 10%;
+  background: url("../img/f_logo.jpg") no-repeat;
+  background-size: contain;
+  margin-top: 90px;
+}
 
-.f_info{width:calc((70% - 150px) - 0.1px); padding:40px; margin:50px 0 0 0;}
-.f_info_t{margin:20px 0;}
-.f_info p span{margin-right:20px;}
+.f_info {
+  width: calc((70% - 150px) - 0.1px);
+  padding: 40px;
+  margin: 50px 0 0 0;
+}
+.f_info_t {
+  margin: 20px 0;
+}
+.f_info p span {
+  margin-right: 20px;
+}
 
-.f_img1,.f_img2,.f_info{height:200px; margin-right:50px; font-size:14px;}
-
-
-
-
+.f_img1,
+.f_img2,
+.f_info {
+  height: 200px;
+  margin-right: 50px;
+  font-size: 14px;
+}
