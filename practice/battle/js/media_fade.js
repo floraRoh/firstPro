@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // 게시판 페이드인,아웃
-  $("#media_total").click(function () {
-    event.preventDefault();
+  $("#media_total").click(function (e) {
+    e.preventDefault();
     media_fade(
       ".section_wrap_1",
       ".section_wrap_2",
@@ -13,8 +13,8 @@ $(document).ready(function () {
     media_re();
     media_font("#media_total");
   });
-  $("#media_best").click(function () {
-    event.preventDefault();
+  $("#media_best").click(function (e) {
+    e.preventDefault();
     media_fade(
       ".section_wrap_2",
       ".section_wrap_1",
@@ -26,8 +26,8 @@ $(document).ready(function () {
     media_re();
     media_font("#media_best");
   });
-  $("#media_screen").click(function () {
-    event.preventDefault();
+  $("#media_screen").click(function (e) {
+    e.preventDefault();
     media_fade(
       ".section_wrap_3",
       ".section_wrap_1",
@@ -39,8 +39,8 @@ $(document).ready(function () {
     media_re();
     media_font("#media_screen");
   });
-  $("#media_video").click(function () {
-    event.preventDefault();
+  $("#media_video").click(function (e) {
+    e.preventDefault();
     media_fade(
       ".section_wrap_4",
       ".section_wrap_1",
@@ -52,8 +52,8 @@ $(document).ready(function () {
     media_re();
     media_font("#media_video");
   });
-  $("#media_comp").click(function () {
-    event.preventDefault();
+  $("#media_comp").click(function (e) {
+    e.preventDefault();
     media_fade(
       ".section_wrap_5",
       ".section_wrap_1",

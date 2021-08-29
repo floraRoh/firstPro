@@ -16,8 +16,8 @@ $(document).ready(function () {
     fade_n(".t_comp", ".t_ins", ".t_coffee", ".t_pran", ".t_store");
   });
 
-  function fade_n(fn1, fn2, fn3, fn4, fn5) {
-    event.preventDefault();
+  function fade_n(fn1, fn2, fn3, fn4, fn5, e) {
+    e.preventDefault();
     $(fn1).fadeIn();
     $(fn2).fadeOut();
     $(fn3).fadeOut();

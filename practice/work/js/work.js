@@ -15,9 +15,9 @@ $(document).ready(function () {
     if (li_click === "menu_info") {
       menu_click(menu_1);
     } else if (li_click === "menu_port") {
-      menu_click(menu_2 - 100);
+      menu_click(menu_2);
     } else if (li_click === "menu_ques") {
-      menu_click(menu_3 - 200);
+      menu_click(menu_3 - 100);
     } else {
     }
   });

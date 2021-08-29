@@ -103,8 +103,8 @@ $(document).ready(function () {
   });
 
   // top button
-  $(".top a").click(function () {
-    event.preventDefault();
+  $(".top a").click(function (e) {
+    e.preventDefault();
     var href = $(this).attr("href");
     var pos = $(href).offset().top;
 

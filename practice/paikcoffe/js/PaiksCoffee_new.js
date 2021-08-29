@@ -5,9 +5,6 @@ $(document).ready(function () {
     var n3_top = $(".top_seller").offset().top - 100;
     var s_top = $(window).scrollTop() + 500;
 
-    console.log(s_top);
-    console.log("n_top" + n_top);
-
     if (s_top >= n_top && s_top <= n2_top) {
       $(".new_1_fl, .new_1_fr").css({
         transform: "translateX(0)",
