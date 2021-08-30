@@ -255,7 +255,11 @@ footer ul {
 footer ul li a {
   font-weight: bold;
 }
-
+@media screen and (max-width:1024px) {
+  .display-4 {
+    font-size: 2rem !important;
+  }
+}
 @media screen and (max-width: 720px) {
   html {
     font-size: 16px;
@@ -273,9 +277,6 @@ footer ul li a {
     text-align: center;
     border: 2px solid #000000;
     padding: 1.5rem;
-  }
-  .display-4 {
-    font-size: 2.5rem !important;
   }
   section.pr .slide-text {
     transform: translateX(0);
@@ -299,7 +300,7 @@ footer ul li a {
 @media screen and (max-width: 480px) {
   article .profile .text-right,
   .display-4 {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
   section.pr ul li {
     line-height: 1.8;
