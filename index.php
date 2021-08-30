@@ -93,7 +93,7 @@
             <li class="swiper-slide text-center">
               <a style="background-image:url('<?= $wValue["img"] ?>')" href="<?= $wValue['href'] ?>" target="_blank"></a>
               <h4 class="font-weight-bold pt-2"><?= $wValue['name'] ?></h4>
-              <p class="font-weight-bold">기여도 <?= $wValue['percent'] ?>%</p>
+              <p class="font-weight-bold text-center">기여도 <?= $wValue['percent'] ?>%</p>
             </li>
           <?php } ?>
         </ul>
@@ -116,7 +116,7 @@
       </div>
     </section>
     <section class="contact text-center wrap-w">
-      <p>
+      <p class="text-center">
         <i class="bi bi-check"></i>제가 궁금하시다면
       </p>
       <a class="display-4" href="mailto:nohye12@gmail.com">nohye12@gmail.com</a>

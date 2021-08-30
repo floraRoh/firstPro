@@ -44,7 +44,6 @@ p,
 li,
 a {
   transform: skew(-0.3deg);
-  text-align: justify;
 }
 
 .wrap-w {
@@ -123,6 +122,11 @@ article .profile .profile-photo::after {
   top: -14px;
   left: -14px;
 }
+article .profile-text p,
+article .profile-text li {
+  text-align: justify;
+}
+
 article .profile-text .hashtag {
   color: #ff8216;
   font-weight: bold;
@@ -131,6 +135,7 @@ article .profile-text .hashtag {
 article .profile p {
   font-size: 1.5rem;
   font-weight: 600;
+  text-align: justify;
 }
 article .profile p > span {
   font-weight: normal;
