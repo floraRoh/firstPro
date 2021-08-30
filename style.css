@@ -275,7 +275,7 @@ footer ul li a {
     padding: 1.5rem;
   }
   .display-4 {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
   section.pr .slide-text {
     transform: translateX(0);
@@ -299,7 +299,7 @@ footer ul li a {
 @media screen and (max-width: 480px) {
   article .profile .text-right,
   .display-4 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   section.pr ul li {
     line-height: 1.8;
