@@ -82,7 +82,7 @@
     </article>
     <section class="port-folio wrap-w">
       <h2>뚝딱뚝딱 만들었어요.</h2>
-      <div class="swiper-container mt-5 mb-5" id="workSlide">
+      <div class="swiper-container mt-5 mb-5 position-relative" id="workSlide">
         <ul class="swiper-wrapper">
           <?php
           $jsonStr = file_get_contents("./work.json");
@@ -97,6 +97,8 @@
             </li>
           <?php } ?>
         </ul>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
       <ul class="another-pp">
         <li><a href="./practice/work/index.html" target="_blank">다른 포트폴리오 보러가기</a></li>

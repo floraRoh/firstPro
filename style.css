@@ -156,17 +156,24 @@ article .profile .text-right > u:after {
   height: 2px;
   background: #000000;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  top: 45% !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #666666;
+}
+section.portfolio #workSlide.swiper-container {
+  overflow: hidden;
+}
 section.port-folio #workSlide .swiper-wrapper {
   display: flex;
   align-content: center;
   white-space: nowrap;
 }
-section.portfolio .swiper-container {
-  overflow: hidden;
-}
 section.port-folio #workSlide .swiper-wrapper li {
-  width: 100%;
-  max-width: 300px;
+  width: auto;
   height: 600px;
 }
 section.port-folio #workSlide .swiper-wrapper li a {
@@ -277,14 +284,15 @@ footer ul li a {
     text-align: center;
     width: 100%;
   }
-  section.port-folio .another-pp{
+  section.port-folio .another-pp {
     flex-direction: column;
+    margin:5rem auto 1rem;
   }
-  section.port-folio .another-pp li{
+  section.port-folio .another-pp li {
     width: 100%;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
   }
-  .wrap-w{
+  .wrap-w {
     width: 70%;
   }
 }

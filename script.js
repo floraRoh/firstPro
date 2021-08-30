@@ -21,8 +21,33 @@ $(window).scroll(() => {
 $(function () {
   // 작업물 슬라이드
   let pageSwiper = new Swiper("#workSlide", {
-    slidesPerView: "auto",
+    slidesPerView: 5,
     spaceBetween: 30,
+    slidesPerGroup: 5,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    loop: true,
     freeMode: true,
+    breakpoints : { 
+      1920 : {
+        slidesPerView : 5,
+        slidesPerGroup: 5,
+      },
+      1024 : {
+        slidesPerView : 3,
+        slidesPerGroup: 3,
+      },
+      780 : {
+        slidesPerView : 2,
+        slidesPerGroup: 2,
+      },
+      0 : {
+        slidesPerView : 1,
+        slidesPerGroup: 1,
+      },
+    },
   });
 });
