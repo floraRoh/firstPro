@@ -1,14 +1,12 @@
 @font-face {
   font-family: "IM_Hyemin-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2")
-    format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "IM_Hyemin-Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2")
-    format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -110,8 +108,7 @@ article .profile .profile-photo {
   width: 280px;
   height: 350px;
   position: relative;
-  background: transparent url("./img/KakaoTalk_20210829_150215044.jpg")
-    no-repeat center center / cover;
+  background: transparent url("./img/KakaoTalk_20210829_150215044.jpg") no-repeat center center / cover;
 }
 article .profile .profile-photo::after {
   content: "";
@@ -255,7 +252,7 @@ footer ul {
 footer ul li a {
   font-weight: bold;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .display-4 {
     font-size: 2rem !important;
   }
@@ -272,7 +269,8 @@ footer ul li a {
     padding: 4rem 3rem;
   }
   section.pr .ml-auto p {
-    width: 60%;
+    width: 100%;
+    min-width: auto;
     margin: 2rem auto;
     text-align: center;
     border: 2px solid #000000;
@@ -281,13 +279,13 @@ footer ul li a {
   section.pr .slide-text {
     transform: translateX(0);
     white-space: normal;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     width: 100%;
   }
   section.port-folio .another-pp {
     flex-direction: column;
-    margin:5rem auto 1rem;
+    margin: 4rem auto 1rem;
   }
   section.port-folio .another-pp li {
     width: 100%;
@@ -296,16 +294,31 @@ footer ul li a {
   .wrap-w {
     width: 70%;
   }
+  .h2,
+  h2 {
+    font-size: 1.6rem;
+  }
 }
 @media screen and (max-width: 480px) {
   article .profile .text-right,
   .display-4 {
-    font-size: 1.8rem !important;
+    font-size: 1.3rem !important;
   }
   section.pr ul li {
     line-height: 1.8;
   }
   section.pr .ml-auto {
     margin-top: 5rem !important;
+  }
+  section.port-folio #workSlide .swiper-wrapper li {
+    height: 400px;
+  }
+  .another-pp li a,
+  article .profile-text .hashtag {
+    font-size: 0.9rem;
+  }
+  footer ul {
+    display: block;
+    text-align: center;
   }
 }

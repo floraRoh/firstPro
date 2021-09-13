@@ -82,7 +82,7 @@
     </article>
     <section class="port-folio wrap-w">
       <h2>뚝딱뚝딱 만들었어요.</h2>
-      <div class="swiper-container mt-5 mb-5 position-relative" id="workSlide">
+      <div class="swiper-container mt-4 mb-4 position-relative" id="workSlide">
         <ul class="swiper-wrapper">
           <?php
           $jsonStr = file_get_contents("./work.json");

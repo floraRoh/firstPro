@@ -37,10 +37,10 @@ $(function () {
         slidesPerGroup: 5,
       },
       1024 : {
-        slidesPerView : 3,
-        slidesPerGroup: 3,
+        slidesPerView : 4,
+        slidesPerGroup: 4,
       },
-      780 : {
+      720 : {
         slidesPerView : 2,
         slidesPerGroup: 2,
       },

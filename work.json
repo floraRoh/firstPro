@@ -117,5 +117,12 @@
     "href": "https://www.banggooso.com/intro.html?idx=53",
     "img": "./img/53.png",
     "percent": 100
+  },
+  {
+    "idx": 62,
+    "name": "꿈의 농장 테스트",
+    "href": "https://www.banggooso.com/intro.html?idx=62",
+    "img": "./img/62.png",
+    "percent": 100
   }
 ]
