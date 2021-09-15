@@ -156,6 +156,7 @@ article .profile .text-right > u:after {
 .swiper-button-next,
 .swiper-button-prev {
   top: 45% !important;
+  background:transparent;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
