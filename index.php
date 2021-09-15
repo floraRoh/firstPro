@@ -97,8 +97,8 @@
             </li>
           <?php } ?>
         </ul>
-        <button class="swiper-button-next"></button>
-        <button class="swiper-button-prev"></button>
+        <button class="swiper-button-next">다음</button>
+        <button class="swiper-button-prev">이전</button>
       </div>
       <ul class="another-pp">
         <li><a href="./practice/work/index.html" target="_blank">다른 포트폴리오 보러가기</a></li>
