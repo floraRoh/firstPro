@@ -31,12 +31,17 @@ a {
   height: 80px;
   background: #fff;
   cursor: pointer;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 99;
 }
 .header_size {
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   height: 100%;
+  background:#000000;
 }
 .header_fixed {
   background: #111;
@@ -49,7 +54,7 @@ a {
 .logo {
   width: 200px;
   height: 100%;
-  background: url("img/logo.png");
+  background: url("img/logo_w.png");
 }
 
 .menu {
@@ -64,6 +69,7 @@ a {
   line-height: 80px;
   text-align: center;
   cursor: pointer;
+  color:#ffffff;
 }
 
 .ham {
@@ -105,6 +111,7 @@ a {
   width: 100%;
   height: 700px;
   background: url("img/startup-593336_1920.jpg") no-repeat center / cover;
+  margin-top:50px;
 }
 .work_banner {
   width: 100%;

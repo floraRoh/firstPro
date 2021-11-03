@@ -13,16 +13,11 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var s_top = $(window).scrollTop();
     if (s_top >= 100) {
-      $(".header").addClass("header_fixed");
+      // $(".header").addClass("header_fixed");
       $(".menu li").css("color", "#fff");
-      $(".logo").css({
-        background: "url('img/logo_w.png')",
-      });
       $(".ham_line").css("background", "#ddd");
     } else {
-      $(".header").removeClass("header_fixed");
-      $(".menu li").css("color", "#222328");
-      $(".logo").css("background", 'url("img/logo.png")');
+      // $(".header").removeClass("header_fixed");
       $(".ham_line").css("background", "#222328");
     }
 
